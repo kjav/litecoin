@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Litecoin Core 0.14.2
 =====================
+=======
+Litecoin Core
+=============
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 
 Intro
 -----

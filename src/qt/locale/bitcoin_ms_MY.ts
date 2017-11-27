@@ -319,6 +319,25 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>Buka &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Click to disable network activity.</source>
+        <translation>Tekan untuk lumpuhkan rangkaian</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>Aktiviti rangkaian dilumpuhkan</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>Tekan untuk mengaktifkan rangkain semula</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Penyelarasn tajuk (%1%)...</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexi blok pada cakera...</translation>
     </message>
@@ -330,6 +349,73 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>Backup wallet to another location</source>
         <translation>Wallet sandaran ke lokasi lain</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Tukar kata laluan untuk dompet disulitkan</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>Tetingkap Debug</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>buka debug dan konsol diagnostik</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>sahkan mesej</translation>
+    </message>
+    <message>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>dompet</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation>hantar</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>terima</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;tunjuk/sembunyi</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>tunjuk atau sembunyi tetingkap utama</translation>
+    </message>
+    <message>
+        <source>Encrypt the private keys that belong to your wallet</source>
+        <translation>sulitkan kata laluan milik peribadi anda </translation>
+    </message>
+    <message>
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Log mesej dengan alamat Litecoin anda untuk membuktikan anda memilikinya</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Litecoin yang ditentukan</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>fail</translation>
+    </message>
+    <message>
+        <source>&amp;Settings</source>
+        <translation>tetapan</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>tolong</translation>
+    </message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </context>
 <context>
     <name>CoinControlDialog</name>

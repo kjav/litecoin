@@ -169,7 +169,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Uyarı: Eğer cüzdanınızı şifreler ve parolanızı kaybederseniz &lt;b&gt;TÜM LITECOINLERİNİZİ KAYBEDECEKSİNİZ&lt;/b&gt;!</translation>
+=======
+        <translation>Uyarı: Eğer cüzdanınızı şifreler ve parolanızı kaybederseniz &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDECEKSİNİZ&lt;/b&gt;!</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

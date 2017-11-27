@@ -1,11 +1,15 @@
 # Notes
 The sources in this directory are unit test cases.  Boost includes a
-unit testing framework, and since bitcoin already uses boost, it makes
+unit testing framework, and since litecoin already uses boost, it makes
 sense to simply use this framework rather than require developers to
 configure some other framework (we want as few impediments to creating
 unit tests as possible).
 
+<<<<<<< HEAD
 The build system is setup to compile an executable called "test_bitcoin"
+=======
+The build system is setup to compile an executable called "test_litecoin"
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 that runs all of the unit tests.  The main source file is called
 test_bitcoin.cpp, which simply includes other files that contain the
 actual unit tests (outside of a couple required preprocessor
@@ -20,4 +24,8 @@ Add the source files to /src/Makefile.test.include to add them to the build.
 
 For further reading, I found the following website to be helpful in
 explaining how the boost unit test framework works:
+<<<<<<< HEAD
 [http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/](http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/).
+=======
+[http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/](http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/).
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc

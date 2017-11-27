@@ -27,6 +27,7 @@ static const CBitcoinAddress addr2C("LWegHWHB5rmaF5rgWYt1YN3StapRdnGJfU");
 
 
 static const std::string strAddressBad("Lbi6bpMhSwp2CXkivEeUK9wzyQEFzHDfSr");
+<<<<<<< HEAD
 
 
 #ifdef KEY_TESTS_DUMPINFO
@@ -55,6 +56,8 @@ void dumpKeyInfo(uint256 privkey)
     }
 }
 #endif
+=======
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 
 
 BOOST_FIXTURE_TEST_SUITE(key_tests, BasicTestingSetup)

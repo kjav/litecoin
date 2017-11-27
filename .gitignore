@@ -80,7 +80,10 @@ Litecoin-Qt.app
 # Unit-tests
 Makefile.test
 litecoin-qt_test
+<<<<<<< HEAD
 src/test/buildenv.py
+=======
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 
 # Resources cpp
 qrc_*.cpp
@@ -101,8 +104,8 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
-qa/pull-tester/tests_config.py
-qa/cache/*
+test/config.ini
+test/cache/*
 
 !src/leveldb*/Makefile
 
