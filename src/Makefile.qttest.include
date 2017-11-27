@@ -11,7 +11,9 @@ TEST_QT_MOC_CPP = \
   qt/test/moc_uritests.cpp
 
 if ENABLE_WALLET
-TEST_QT_MOC_CPP += qt/test/moc_paymentservertests.cpp
+TEST_QT_MOC_CPP += \
+  qt/test/moc_paymentservertests.cpp \
+  qt/test/moc_wallettests.cpp
 endif
 
 TEST_QT_H = \
@@ -19,8 +21,20 @@ TEST_QT_H = \
   qt/test/rpcnestedtests.h \
   qt/test/uritests.h \
   qt/test/paymentrequestdata.h \
-  qt/test/paymentservertests.h
+  qt/test/paymentservertests.h \
+  qt/test/wallettests.h
 
+<<<<<<< HEAD
+=======
+TEST_BITCOIN_CPP = \
+  test/test_bitcoin.cpp \
+  test/testutil.cpp
+
+TEST_BITCOIN_H = \
+  test/test_bitcoin.h \
+  test/testutil.h
+
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 qt_test_test_litecoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(QT_TEST_INCLUDES) $(PROTOBUF_CFLAGS)
 
@@ -29,10 +43,18 @@ qt_test_test_litecoin_qt_SOURCES = \
   qt/test/rpcnestedtests.cpp \
   qt/test/test_main.cpp \
   qt/test/uritests.cpp \
-  $(TEST_QT_H)
+  $(TEST_QT_H) \
+  $(TEST_BITCOIN_CPP) \
+  $(TEST_BITCOIN_H)
 if ENABLE_WALLET
 qt_test_test_litecoin_qt_SOURCES += \
+<<<<<<< HEAD
   qt/test/paymentservertests.cpp
+=======
+  qt/test/paymentservertests.cpp \
+  qt/test/wallettests.cpp \
+  wallet/test/wallet_test_fixture.cpp
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 endif
 
 nodist_qt_test_test_litecoin_qt_SOURCES = $(TEST_QT_MOC_CPP)
@@ -45,7 +67,11 @@ if ENABLE_ZMQ
 qt_test_test_litecoin_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 qt_test_test_litecoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CONSENSUS) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) \
+<<<<<<< HEAD
   $(LIBMEMENV) $(BOOST_LIBS) $(QT_DBUS_LIBS) $(QT_TEST_LIBS) $(QT_LIBS) \
+=======
+  $(LIBLEVELDB_SSE42) $(LIBMEMENV) $(BOOST_LIBS) $(QT_DBUS_LIBS) $(QT_TEST_LIBS) $(QT_LIBS) \
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
   $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 qt_test_test_litecoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)

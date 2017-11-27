@@ -239,7 +239,11 @@
     </message>
     <message>
         <source>Litecoin</source>
+<<<<<<< HEAD
         <translation>Litecoino</translation>
+=======
+        <translation>Litecoin</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     <message>
         <source>Wallet</source>
@@ -685,7 +689,11 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+<<<<<<< HEAD
         <translation>Elekti la defaŭltan manieron por montri liteoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+=======
+        <translation>Elekti la defaŭltan manieron por montri litecoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -724,7 +732,11 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la liteoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+=======
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la litecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1030,7 +1042,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
+<<<<<<< HEAD
         <translation>Sendi Litecoinon</translation>
+=======
+        <translation>Sendi Litecoinn</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1339,7 +1355,11 @@
     </message>
     <message>
         <source>Litecoin Core</source>
+<<<<<<< HEAD
         <translation>Kerno de Litecoin</translation>
+=======
+        <translation>Kerno de Litecoino</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

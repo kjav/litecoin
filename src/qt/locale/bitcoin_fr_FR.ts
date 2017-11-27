@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l'adresse surlignée dans votre presse-papiers</translation>
+        <translation>Copier l'adresse sélectionnée dans le presse-papiers</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -42,8 +42,29 @@
         <translation>&amp;Supprimer</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>C&amp;hoose</source>
         <translation>C&amp;oisir</translation>
+=======
+        <source>Choose the address to send coins to</source>
+        <translation>Choisissez une adresse où envoyer les litecoins</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Choisissez une adresse où recevoir les litecoins</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>C&amp;hoisir</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Adresses d'envoi</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Adresses de réception</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -112,8 +133,17 @@
         <translation>Décrypter le porte-monnaie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet encrypted</source>
         <translation>Porte-monnaie chiffré</translation>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Attention : Si vous chiffrez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS LITECOINS&lt;/b&gt; !</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Portefeuille chiffré</translation>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
     </message>
     </context>
 <context>
@@ -131,7 +161,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Signer &amp;message...</translation>
+        <translation>Signer un &amp;message...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -416,7 +446,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Frais:</translation>
+        <translation>Frais :</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -479,6 +509,17 @@
         <translation>Copier le montant</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy transaction ID</source>
+        <translation>Copier l'ID de transaction</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Copier la quantité</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Copy fee</source>
         <translation>Copier les frais</translation>
     </message>
@@ -1179,10 +1220,24 @@
         <translation>&amp;Sauvegarder image</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount</source>
+        <translation>Montant</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Label</source>
         <translation>Étiquette</translation>
     </message>
@@ -1313,6 +1368,13 @@
         <translation>E&amp;voyer</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy quantity</source>
+        <translation>Copier la quantité</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Copy amount</source>
         <translation>Copier le montant</translation>
     </message>
@@ -1329,6 +1391,13 @@
         <translation>Copier les octets</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>or</source>
+        <translation>ou</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>(no label)</source>
         <translation>(aucune étiquette)</translation>
     </message>
@@ -1386,7 +1455,11 @@
     </context>
 <context>
     <name>SendConfirmationDialog</name>
-    </context>
+    <message>
+        <source>Yes</source>
+        <translation>Oui</translation>
+    </message>
+</context>
 <context>
     <name>ShutdownWindow</name>
     </context>
@@ -1526,6 +1599,13 @@
         <translation>Commentaire </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount</source>
+        <translation>Montant</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>true</source>
         <translation>vrai</translation>
     </message>
@@ -1548,6 +1628,13 @@
         <translation>Date</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Label</source>
         <translation>Étiquette</translation>
     </message>
@@ -1603,6 +1690,13 @@
         <translation>Copier le montant</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy transaction ID</source>
+        <translation>Copier l'ID de transaction</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Comma separated file (*.csv)</source>
         <translation>Valeurs séparées par des virgules (*.csv)</translation>
     </message>
@@ -1611,6 +1705,13 @@
         <translation>Date</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
         <source>Label</source>
         <translation>Étiquette</translation>
     </message>
@@ -1619,10 +1720,25 @@
         <translation>Adresse</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Exporting Failed</source>
         <translation>Échec de l'export</translation>
     </message>
     </context>
+=======
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Échec de l'export</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>à</translation>
+    </message>
+</context>
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>

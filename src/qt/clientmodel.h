@@ -10,13 +10,14 @@
 
 #include <atomic>
 
+<<<<<<< HEAD
 class AddressTableModel;
+=======
+>>>>>>> ba8ed3a93be7e7a97db6bc00dd7280fa2f1548bc
 class BanTableModel;
 class OptionsModel;
 class PeerTableModel;
-class TransactionTableModel;
 
-class CWallet;
 class CBlockIndex;
 
 QT_BEGIN_NAMESPACE
